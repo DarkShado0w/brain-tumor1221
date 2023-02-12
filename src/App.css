@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.dropzone {
+  background-color: #fff;
+      border-radius: 10px;
+      border: 2px dashed grey;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+      background-color: #f2f2f2;
+  }
+  
+  .dropzone p {
+  font-size: 18px;
+  color: #f10909;
+  margin-top: 10px;
+  }
+  
+  .dropzone em {
+  font-size: 14px;
+  color: #310404;
+  display: block;
+  }
+  
+  .dropzone input {
+  display: none;
+  }
+  .dialogTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+em {
+  font-size: 14px;
+  color: rgb(10, 182, 250);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .dropzone {
+    font-size: 14px;
+  }
+}
+.dropzone {
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes example-animation {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.dropzone:hover {
+  animation: example-animation 0.5s ease-in-out forwards;
+}
+p.ex1 {
+  padding-right: 150px;
+}
+.file-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.text-padding {
+  padding-bottom: 30px;
+}
